@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Turtle Viewer</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags unless you know what you are doing -->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+      <!-- Do not add `script` tags unless you know what you are doing -->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <body class="container-fluid">
+      <a href="#"><img src="https://img.clipartfest.com/742989a826f4aa1d1f51971a63a1ded8_-ninja-turtles-logo-vector-tmnt-logo-clipart_1024-472.png" height="250" class="turtle-logo"></a>
+      <h1 class="db-header">(The Database)</h1>
+
+
+      <h3 class="db-header">Click a turtle to learn more, or the logo to go back to the main view!</h3>
+      <div class="container">
+
+        <div class="drop-row">
+          <div class="dropdown">
+            <button class="dropbtn">Filter by name</button>
+            <div class="dropdown-content name-drop">
+              <a href="#"><div class="no-filter-btn">See all turtles</div></a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Filter by color</button>
+            <div class="dropdown-content color-drop">
+              <a href="#"><div class="no-filter-btn">See all turtles</div></a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">Filter by weapon</button>
+            <div class="dropdown-content weapon-drop">
+              <a href="#"><div class="no-filter-btn">See all turtles</div></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="turtle-grid">
+        </div>
+      </div>
+    </body>
+</html>
